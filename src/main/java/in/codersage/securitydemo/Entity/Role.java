@@ -1,4 +1,6 @@
-package in.codersage.securitydemo;
+package in.codersage.securitydemo.Entity;
+
+import in.codersage.securitydemo.Entity.User;
 
 import javax.persistence.*;
 import java.util.Set;

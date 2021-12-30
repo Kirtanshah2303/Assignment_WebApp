@@ -1,4 +1,4 @@
-package in.codersage.securitydemo;
+package in.codersage.securitydemo.Service;
 
 import org.springframework.stereotype.Service;
 

@@ -1,8 +1,11 @@
-package in.codersage.securitydemo;
+package in.codersage.securitydemo.Controller;
 
+import in.codersage.securitydemo.Service.SecurityService;
+import in.codersage.securitydemo.Entity.User;
+import in.codersage.securitydemo.Service.UserService;
+import in.codersage.securitydemo.Config.UserValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.context.properties.bind.BindResult;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;

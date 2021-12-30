@@ -1,4 +1,4 @@
-package in.codersage.securitydemo;
+package in.codersage.securitydemo.Service;
 
 import java.util.Collection;
 import java.util.Map;
@@ -28,10 +28,4 @@ public class CustomOAuth2User implements OAuth2User {
     public String getName() {
         return oauth2User.getAttribute("name");
     }
-
-    public String getEmail() {
-        return oauth2User.<String>getAttribute("email");
-    }
-
-
 }

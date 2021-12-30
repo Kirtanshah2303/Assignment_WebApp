@@ -1,5 +1,7 @@
-package in.codersage.securitydemo;
+package in.codersage.securitydemo.Config;
 
+import in.codersage.securitydemo.Entity.User;
+import in.codersage.securitydemo.Service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;

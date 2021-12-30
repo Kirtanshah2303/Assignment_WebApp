@@ -1,6 +1,6 @@
-package in.codersage.securitydemo;
+package in.codersage.securitydemo.Service;
 
-import org.springframework.stereotype.Service;
+import in.codersage.securitydemo.Entity.User;
 
 
 public interface UserService {

@@ -1,5 +1,8 @@
-package in.codersage.securitydemo;
+package in.codersage.securitydemo.Config;
 
+import in.codersage.securitydemo.Service.CustomOAuth2User;
+import in.codersage.securitydemo.Service.CustomOAuth2UserService;
+import in.codersage.securitydemo.Service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;

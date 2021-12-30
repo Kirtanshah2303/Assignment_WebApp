@@ -1,5 +1,8 @@
-package in.codersage.securitydemo;
+package in.codersage.securitydemo.Service;
 
+import in.codersage.securitydemo.Entity.Role;
+import in.codersage.securitydemo.Entity.User;
+import in.codersage.securitydemo.Repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
