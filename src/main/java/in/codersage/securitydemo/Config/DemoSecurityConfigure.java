@@ -59,6 +59,7 @@ public class DemoSecurityConfigure extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
             http.authorizeRequests()
                     .antMatchers("/registration", "/oauth/**").permitAll()
+                    .antMatchers("/{ID}/generate").permitAll()
                     .antMatchers("/guest/**").hasRole("GUEST")
                     .antMatchers("/admin/**").hasRole("ADMIN")
                     .and()

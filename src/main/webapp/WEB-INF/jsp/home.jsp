@@ -30,8 +30,14 @@ Welcome to the luv2code company home page!
     <a href="${pageContext.request.contextPath}/admin">Admin</a>
     </security:authorize>
     <br/>
-    <security:authorize access="hasRole('GUEST')">
-    <a href="${pageContext.request.contextPath}/guest">Guest</a>
+<%--    <security:authorize access="hasRole('GUEST')">--%>
+    <security:authorize access="hasRole('USER')">
+<%--    <a href="${pageContext.request.contextPath}/guest">Guest</a>--%>
+        <form:form method="post" action="http://localhost:8080/uploadFile" enctype="multipart/form-data">
+            <input type = "file" name = "file" size = "50" />
+            <br />
+            <input type="submit" value="File Upload"/>
+        </form:form>
     </security:authorize>
 </p>
 <hr>
